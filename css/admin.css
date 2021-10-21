@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content{
+    min-height: 1000vh;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+/* .tbl-30{
+    width: 80%;
+
+} */
+
+table tr th{
+    border-bottom: 1px solid white;
+    padding: 1% 0;
+    text-align: left;
+    color: #5cfdb2;
+}
+table tr td{
+    padding: 1% 0;
+    text-align: left;
+    color: white;
+}
+
+
+.btn-primary{
+  background-color: #5cfdb2;
+  color: rgb(9, 9, 22);
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 7%;
+
+}
+
+.btn-primary:hover{
+   background-color: #27c47b;
+}
+.btn-danger{
+  background-color: red;
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 7%;
+
+}
+
+.icon{
+    padding: 4%;
+}
+
+.btn-danger:hover{
+    background-color: rgb(219, 25, 25);
+}
+
+/* Menu */
+.menu{
+    background-color: #5cfdb2;
+}
+
+.menu ul{
+  list-style: none;
+  text-align: center;
+
+
+
+}
+.menu ul li{
+ display: inline;
+ padding: 1%;
+
+
+}
+.menu ul li a{
+ text-decoration: none;
+ font-weight : bold ;
+ color: rgb(16, 16, 73);
+
+}
+.menu ul li a:hover{
+ color: black;
+
+}
+
+/* Main Content */
+.main-content{
+    background-color: rgb(9, 9, 22);
+    padding: 1% 0;
+    color: white;
+}
+
+.col-4{
+   width: 17%;
+   background-color: #5cfdb2;
+   margin: 1%;
+   padding: 3%;
+  float: left;
+  border-radius: 10px;
+
+}
+
+
+.success{
+    color: #5cfdb2;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    text-align: center;
+}
+
+/* Form */
+
+
+/* Footer */
+.footer{
+    background-color: #5cfdb2;
+    color: rgb(16, 16, 73);
+    font-weight: bold;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 90%;
+    padding: 1% ;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #5cfdb2 ;
+    outline: none;
+    margin-left: 5%;
+    
+}
+
+::placeholder{
+    display: flex;
+    justify-content: start;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    margin-left: 5%;
+    color: white;
+
+}
+
+
+
+fieldset{
+   border-color: #5cfdb2;
+   border-width: 2px;
+   padding-bottom: 1rem;
+   color: white;
+}
+
+
+legend{
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container{
+    width:90%;
+    margin: 0 auto;
+    padding: 1%;
+ 
+ }
+ .food-search{
+    padding: 10% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    color: rgb(24, 24, 59);
+}
+
+.text-white{
+    color: #5cfdb2;
+}
+.text-black{
+    color: black;
+}
+
+.text-top{
+    margin-top: -1rem;
+}
+legend{
+    color: #5cfdb2;
+}
+
+.btn{
+    display: inline-block;
+    padding:.8rem  .5rem;
+    text-decoration: none;
+    color:rgb(24, 24, 59);
+    background:  #5cfdb2;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: none;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.radio{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12rem;
+    margin-bottom: 1rem;
+}
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:780px){
+   
+    .order{
+        width: 100%;
+    }
+   .flex{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
+   }
+
+   .col-4{
+       width: 70%;
+   }
+}
+

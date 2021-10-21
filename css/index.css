@@ -1,0 +1,65 @@
+.container-fluid input,
+.container-fluid select
+
+{border: 1px solid green;
+    outline: none;
+}
+nav{
+    background-color: rgb(6, 68, 6);
+
+}
+
+.navbar-brand{
+    color: yellow !important;
+  font-weight: bolder;
+}
+
+
+ nav.nav-link{
+    color: yellow !important;
+    font-weight: bold;
+}
+
+nav .nav-link:hover{
+    color: yellow !important;
+}
+
+
+
+.dropdown-menu{
+    background-color: rgb(6, 68, 6);
+    border: none;
+   
+    
+
+}
+
+.dropdown-item{
+    color: white;
+    background-color: rgb(6, 68, 6);
+}
+
+.dropdown-item:hover{
+   color: yellow;
+   background-color: transparent;
+}
+
+.button{
+   width:100%; margin: 0 auto; 
+   background: rgb(6, 68, 6); 
+   color:white;
+    border:none;
+    border-radius: 3px;
+
+
+}
+.button-danger{
+    width:100%; margin: 0 auto; background: red; color:white; border:none;
+    border-radius: 3px;
+
+}
+.button-success{
+    width:100%; margin: 0 auto; background: rgb(6, 68, 6); color:white; border:none;
+    border-radius: 3px;
+
+}
